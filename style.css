@@ -124,7 +124,7 @@ nav {
 
 #hero-image {
     border-radius: 50%;
-    width: 30vw;
+    width: 33vw;
     height: 60vh; 
 }
 
@@ -159,7 +159,7 @@ nav {
 
 /* collection section begins */
 
-#collection {
+.collection {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,7 +168,7 @@ nav {
     margin-top: 3rem;
 }
 
-#collection-h2 {
+.collection-h2 {
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 300;
@@ -179,7 +179,7 @@ nav {
 }
 
 
-#collection-h3 {
+.collection-h3 {
     text-transform: capitalize;
     font-size: 1.5rem;
     margin-top: 1.5rem;
@@ -206,7 +206,7 @@ nav {
     cursor: pointer;
 }
 
-#collections-items-section {
+.collections-items-section {
     background-color: yellow;
     width: 100%;
     display: flex;
@@ -254,4 +254,24 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.price {
+    color: white;
+    background-color:rgb(245, 9, 88);
+    padding: 0.5rem 0.8rem;
+    border-radius: 10px;
+}
+
+/* categories section */
+
+#categories-items-display-list {
+    width: 100%;
+    grid-template-columns: repeat(4, minmax(15rem, 1fr));
+    border: 2px solid;
+}
+
+#categories-items-display-list .image-holder>img {
+    width: 20vw;
+    height: 40vh;
 }
