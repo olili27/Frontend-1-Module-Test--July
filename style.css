@@ -40,9 +40,14 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(233, 22, 92);
+    color: rgb(245, 9, 88);
     font-size: 1.3rem;
     font-weight: bolder;
+}
+
+.fa-free-code-camp {
+    font-size: 2.6rem;
+    padding-right: 0.5rem;
 }
 
 .nav-links {
@@ -60,13 +65,13 @@ nav {
 }
 
 #nav-section-links>li>a:hover, #nav-section-links>li>a:active {
-    color: rgb(233, 22, 92);
+    color: rgb(245, 9, 88);
     font-size: 1.3rem;
     font-weight: bolder;
 }
 
 #home {
-    color: rgb(233, 22, 92);
+    color: rgb(245, 9, 88);
     font-size: 1.3rem;
     font-weight: bolder;
 }
