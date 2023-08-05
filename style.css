@@ -104,6 +104,11 @@ nav {
     padding-right: 2rem;
 }
 
+/* content */
+#content {
+    z-index: -1;
+}
+
 
 /* hero section starts */
 
@@ -114,13 +119,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem  1rem 2rem 4rem;
+    padding: 2rem  2rem 2rem 4rem;
 }
 
 #hero-image {
     border-radius: 50%;
-    /* height: 0%; */
-    /* width: 40%; */
+    width: 30vw;
+    height: 60vh; 
 }
 
 #before-fashion {
@@ -151,3 +156,102 @@ nav {
     margin-top: 2rem;
 }
 
+
+/* collection section begins */
+
+#collection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue  ; */
+    margin-top: 3rem;
+}
+
+#collection-h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0.5rem;
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(245, 9, 88);
+    margin-bottom: 0;
+}
+
+
+#collection-h3 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#categories {
+    display: flex;
+    justify-content: space-between;
+}
+
+#categories>li {
+    margin: 1rem;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    color: rgb(10, 10, 58);
+    box-shadow: 1px 1px 3px #b1acac;
+}
+
+#categories>li:hover, #categories>li:active {
+    background-color: rgb(245, 9, 88);
+    color: white;
+    cursor: pointer;
+}
+
+#collections-items-section {
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.items-display-list {
+    width: 100%;
+    display: grid;
+    grid-gap: 2rem;
+}
+
+#collections-items-display-list {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    border: 2px solid;
+}
+
+.collection-item {
+    background-color: green;
+    width: 100%;
+}
+
+.image-holder {
+    background-color: rgb(250, 176, 240);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-holder > img {
+    width: 30vw;
+    height: 50vh;
+}
+
+.description {
+    padding: 0.5rem 1rem;
+}
+
+.price-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
