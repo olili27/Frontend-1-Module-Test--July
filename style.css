@@ -5,6 +5,7 @@
 body {
     background-color: white;
     font-family:Arial, Helvetica, sans-serif;
+    padding: 1rem;
 }
 
 li {
@@ -14,6 +15,8 @@ li {
 a {
     text-decoration: none;
 }
+
+/* header begins  */
 
 #header {
     max-height: 15vh;
@@ -26,6 +29,7 @@ a {
     top: 0;
     z-index: 100;
     padding: 3rem 2rem;
+    margin-bottom: 3rem;
 }
 
 nav {
@@ -91,7 +95,59 @@ nav {
     background-color: rgb(235, 231, 231);
 }
 
+#nav-icons>li:first-child > a {
+    padding: 0.2rem;
+    background-color: rgb(235, 231, 231);
+}
+
 #nav-icons > li:nth-child(3) {
     padding-right: 2rem;
+}
+
+
+/* hero section starts */
+
+#hero {
+    background: radial-gradient(circle, #f8dff04b, rgb(250, 176, 240));
+    border-radius: 20px;
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem  1rem 2rem 4rem;
+}
+
+#hero-image {
+    border-radius: 50%;
+    /* height: 0%; */
+    /* width: 40%; */
+}
+
+#before-fashion {
+    letter-spacing: 0.05rem;
+    margin-bottom: 0;
+}
+
+#fashion {
+    font-size: 8.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#after-fashion {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 6rem;
+}
+
+#explore {
+    color: white;
+    background-color: rgb(245, 9, 88);
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    margin-top: 2rem;
 }
 
